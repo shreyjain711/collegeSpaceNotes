@@ -20,7 +20,7 @@
 }
 .active{
   transform: translate(10px,0px);
-  animation: activeAni 5s infinite;
+  animation: activeAni 3s infinite;
 }
 button{
   text-align: right;
