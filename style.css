@@ -2,25 +2,52 @@
   width:320px;
   border: 2px solid black;
   height: 480px;
-  overflow:hidden;
+  overflow:auto;
   display:flex;
+}
+.sidebar{
+  position:fixed;
+  overflow-left:hidden;
+  width:70px;
+  z-index:100;
+}
+svg{
+  position:fixed;
+  overflow:hidden;
+  height:80px;
+  margin-top:10px;
+  margin-left:50px;;
+  width:100px;
+}
+.bookmark{
+  overflow:hidden;
+  height:10px;
+}
+.filenames{
+  margin-left:70px;
+  z-index:1;
+  margin-top:-8px;
 }
 .streams{
   height: 50px;
-  width: 100px;
+  width: 50px;
   display:solid;
   background-color:lime;
-  margin:15px -50px;
+  margin:15px -2px;
   text-align: right;
   padding-right:10px;
   line-height:40px;
 } .streams:hover{
   animation:streamAni 2s 1;
   transform: translate(10px,0px);
-}
+  width: 60px;
+  margin-left:-12.5px;
+} 
 .active{
   transform: translate(10px,0px);
-  animation: activeAni 3s infinite;
+  animation: activeAni 5s infinite;
+  width:60px;
+  margin-left:-12.5px;
 }
 button{
   text-align: right;
@@ -30,10 +57,10 @@ button{
   outline:none;
 }
 @keyframes streamAni{
-  0%   {box-shadow:0px 0px 20px 10px red ; margin-left: -60px}
-  15%  {box-shadow:0px 0px 20px 10px blue; margin-left: -10px;}
-  100% {box-shadow:0px 0px 20px 10px red ; margin-left: -50px}
-}
+  0%   {box-shadow:0px 0px 20px 10px red ; margin-left: 0px}
+  15%  {box-shadow:0px 0px 20px 10px blue;width:80px; margin-left: 0px;}
+  100% {box-shadow:0px 0px 20px 10px red ; margin-left: -10px}
+} 
 @keyframes activeAni {
   0%   {box-shadow:0px 0px 20px 10px red;}
   50%  {box-shadow:0px 0px 20px 10px blue;}
@@ -61,10 +88,6 @@ img.cs{
   background-color:black;
   width:70px;height:70px;
 }
-.sidebar{
-  width:80px;
-  z-index:10;
-}
 .bookmark{
   z-index:-1;
   margin-top:-10px;
@@ -74,17 +97,20 @@ img.cs{
   margin:14.62px 0px;
   margin-left:10px;
   height:40px;
-  width: 230px;
+  width: 210px;
   background-color: #999;
   text-align: center;
   line-height:40px;
   display:flex;
+} 
+svg{
+  width:230px;
 }
 .num{
-  width:175px;
+  width:155px;
 }
 .semester {
-  margin-top:-50px;
+  margin-top:20px;
 }
 
 .bars{
@@ -117,4 +143,14 @@ img.cs{
 .streamsLogo{
   width:30px;
   height:45px;
+}
+.hide{
+  display:none;
+}
+#sem1List{
+  width:208px;
+  margin-left:10px;
+  margin-top:-15px;
+  border: 1px solid black;
+  transtion:2s;
 }
