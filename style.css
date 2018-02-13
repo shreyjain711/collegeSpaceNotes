@@ -4,6 +4,9 @@
   height: 480px;
   overflow:auto;
   display:flex;
+  background-color:#f0f0d0;
+  border-radius:5px;
+  box-shadow:3px 5px 0px 0px black,3px 4px 0px 0px black,3px 3px 0px 0px,3px 2px 0px 0px black,2px 5px 0px 0px,1px 5px 0px 0px;
 }
 .sidebar{
   position:fixed;
@@ -42,7 +45,7 @@ svg{
   transform: translate(10px,0px);
   width: 60px;
   margin-left:-12.5px;
-}
+} 
 .active{
   transform: translate(10px,0px);
   animation: activeAni 5s infinite;
@@ -57,14 +60,14 @@ button{
   outline:none;
 }
 @keyframes streamAni{
-  0%   {box-shadow:0px 0px 20px 10px red ; margin-left: 0px}
-  15%  {box-shadow:0px 0px 20px 10px blue;width:80px; margin-left: 0px;}
-  100% {box-shadow:0px 0px 20px 10px red ; margin-left: -10px}
-}
+  0%   {box-shadow:0px 0px 10px 5px red ; margin-left: 0px}
+  15%  {box-shadow:0px 0px 10px 5px blue;width:80px; margin-left: 0px;}
+  100% {box-shadow:0px 0px 10px 5px red ; margin-left: -10px}
+} 
 @keyframes activeAni {
-  0%   {box-shadow:0px 0px 20px 10px red;}
-  50%  {box-shadow:0px 0px 20px 10px blue;}
-  100% {box-shadow:0px 0px 20px 10px red;}
+  0%   {box-shadow:0px 0px 10px 5px red;}
+  50%  {box-shadow:0px 0px 10px 5px blue;}
+  100% {box-shadow:0px 0px 10px 5px red;}
 }
 img.cs{
   height:60px;
@@ -87,6 +90,8 @@ img.cs{
 .logo{
   background-color:black;
   width:70px;height:70px;
+  border-radius:0px 0px 10px 0px;
+/*   box-shadow:-2px -2px 0px; */
 }
 .bookmark{
   z-index:-1;
@@ -98,11 +103,12 @@ img.cs{
   margin-left:10px;
   height:40px;
   width: 210px;
-  background-color: #999;
+  background: linear-gradient(-10deg,#d0d0ff,#d0ffd0,#ffd0d0,#ffd0d0,#d0ffd0,#d0d0ff);
   text-align: center;
   line-height:40px;
   display:flex;
-}
+  border: 3px solid #c0c0ff;
+} 
 svg{
   width:230px;
 }
@@ -124,9 +130,19 @@ svg{
   width: 35px;
   height: 5px;
   background-color: #333;
-  margin: 6px 0;
+  margin: 4.5px 0;
   transition: 0.4s;
   z-index:-10;
+}
+.bar1{
+  background: linear-gradient(90deg,#d0d0ff,#d0ffd0,#ffd0d0,#ffd0d0,#d0ffd0,#d0d0ff);
+  border: 1px solid #a0a0c0;
+} .bar2{
+  background:#d0d0ff;
+  border: 1px solid #a0a0c0;
+} .bar3{
+  background: linear-gradient(90deg,#d0d0ff,#d0ffd0,#ffd0d0,#ffd0d0,#d0ffd0,#d0d0ff);
+  border: 1px solid #a0a0c0;
 }
 
 .change .bar1 {
@@ -137,12 +153,13 @@ svg{
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-3px, -12px);
-    transform: rotate(45deg) translate(-3px, -12px);
+    -webkit-transform: rotate(45deg) translate(-4px, -13px);
+    transform: rotate(45deg) translate(-4px, -13px);
 }
 .streamsLogo{
   width:30px;
   height:45px;
+  opacity:0.8;
 }
 .hide{
   display:none;
@@ -153,47 +170,86 @@ svg{
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
-}
+  padding:5px;
+} 
 #sem2List{
   width:208px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
+  padding:5px;
 } #sem3List{
   width:208px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
+  padding:5px;
 } #sem4List{
   width:208px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
+  padding:5px;
 } #sem5List{
   width:208px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
+  padding:5px;
 } #sem6List{
   width:208px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
+  padding:5px;
 } #sem7List{
   width:208px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
+  padding:5px;
 } #sem8List{
   width:208px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
+  padding-left:5px;
 } 
+#coe{
+  background: linear-gradient(110deg,#c112e8,#b102d8,#ddd,#5916e0,#6926f0);
+  box-shadow:2.5px 3px 0px #8504d4, -2px 3px 0px 0px #b102d8,-2px 2px 0px 0px #b102d8;
+  border-radius:5px 50px 50px 5px;
+} #it{
+  background: linear-gradient(130deg,#c112e8,#b102d8,#ddd,#5916e0,#6926f0);
+  box-shadow:2.5px 3px 0px #8504d4, -2px 3px 0px 0px #b102d8,-2px 2px 0px 0px #b102d8;
+  border-radius:5px 50px 50px 5px;
+} #ece{
+  background: linear-gradient(150deg,#c112e8,#b102d8,#ddd,#5916e0,#6926f0);
+  box-shadow:2.5px 3px 0px #8504d4, -2px 3px 0px 0px #b102d8,-2px 2px 0px 0px #b102d8;
+  border-radius:5px 50px 50px 5px;
+} #ice{
+  background: linear-gradient(-150deg,#c112e8,#b102d8,#ddd,#5916e0,#6926f0);
+  box-shadow:2.5px 3px 0px #8504d4, -2px 3px 0px 0px #5916e0,-2px 2px 0px 0px #5916e0;
+  border-radius:5px 50px 50px 5px;
+} #mpae{
+  background: linear-gradient(-130deg,#c112e8,#b102d8,#ddd,#5916e0,#6926f0);
+  box-shadow:2.5px 3px 0px #8504d4, -2px 3px 0px 0px #5916e0,-2px 2px 0px 0px #5916e0;
+  border-radius:5px 50px 50px 5px;
+} #bt{
+  background: linear-gradient(-110deg,#c112e8,#b102d8,#ddd,#5916e0,#6926f0);
+  box-shadow:2.5px 3px 0px #8504d4, -2px 3px 0px 0px #5916e0,-2px 2px 0px 0px #5916e0;
+  border-radius:5px 50px 50px 5px;
+}
+
+a {
+  color:#9514e4;  
+} a:visited {
+  color:#8504d4;
+}
