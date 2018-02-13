@@ -8,7 +8,6 @@ var streamList = [document.querySelector('#coe'),
 var currentStream = "coe";
 
 function myFunction(x) {
-  debugger;
   for( var i = 1; i < 9; i++ ){
       var z = document.getElementById( "sem" + i + "List" );
       z.classList.remove("hide");
@@ -24,7 +23,7 @@ function streams(x) {
     stream.classList.remove("active");
   });
   x.classList.add("active");
-
+  debugger;
   if( x.id !== currentStream ){
     currentStream = x.id;
     view.streamUpdate(currentStream);
@@ -41,8 +40,9 @@ function sem1(){
   arr.forEach(function(x){
     var a = document.createElement('a');
     var br = document.createElement('br');
-    a.href = x.link;
+    a.href = x.link.split("'").join("");
     a.innerText = x.name.split('_').join(" ");
+    a.target = "_blank";
     one.appendChild(a);
     one.appendChild(br);
   });
@@ -70,8 +70,9 @@ var view = {
         semester.forEach(function(x) {
           var a = document.createElement('a');
           var br = document.createElement('br');
-          a.href = x.link;
+          a.href = x.link.split("'").join("");
           a.innerText = x.name;
+          a.target = "_blank";
           curSem.appendChild(a);
           curSem.appendChild(br);
         });
