@@ -476,7 +476,9 @@
         "semester": "6",
         "name": "Roli Writeups"
       }
-    ]
+    ],
+    [],
+    []
   ],
   "it": [
     [
@@ -933,7 +935,9 @@
         "link": "http://test.collegespace.in'/Academia/NOTES1772810521unknownftpgatewayatcollegespace316227766/IT1772810521unknownftpgatewayatcollegespace316227766/Sem6/Software Engineering _IT_312.pdf",
         "name": "IT_312"
       }
-    ]
+    ],
+    [],
+    []
   ],
   "ece": [
     [
@@ -1336,7 +1340,9 @@
         "semester": "6",
         "name": "ECE-317 Communication (Software) lab file"
       }
-    ]
+    ],
+    [],
+    []
   ],
   "mpae": [
     [
@@ -1820,7 +1826,9 @@
         "semester": "6",
         "name": "Interrupts and Memory Interfacing 8085"
       }
-    ]
+    ],
+    [],
+    []
   ],
   "ice": [
     [
@@ -1949,6 +1957,8 @@
     ],
     [],
     [],
+    [],
+    [],
     []
   ],
   "bt": [
@@ -1989,6 +1999,8 @@
         "name": "Genetics-BT"
       }
     ],
+    [],
+    [],
     [],
     []
   ]
