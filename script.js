@@ -60,7 +60,7 @@ var view = {
   streamUpdate: function( stream ) {
     for( var i = 2; i < 9; i++ ){
       var x = document.getElementById( "sem" + i + "List" ); ;
-      x.innerHtml = ""
+      x.innerHTML = ""
     }
     allSems[stream].forEach( function( semester, i ) {
       var curSem = document.getElementById( "sem" + ( i + 2 ) + "List" );
