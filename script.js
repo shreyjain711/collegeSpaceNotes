@@ -6,13 +6,19 @@ var streamList = [document.querySelector('#coe'),
                  document.querySelector('#bt')
                  ];
 var currentStream = "coe";
-
+var prevSem = "";
 function myFunction(x) {
   for( var i = 1; i < 9; i++ ){
       var z = document.getElementById( "sem" + i + "List" );
       z.classList.remove("hide");
       z.classList.add("hide");
   }
+  if(!prevSem) prevSem =x;
+  else if(prevSem != x){
+    prevSem.childNodes[3].classList.toggle("change");
+    prevSem = x;
+  }else prevSem = "";
+
   x.childNodes[3].classList.toggle("change");
   if( x.childNodes[3].classList[1] === "change" ){
     document.getElementById("sem" + x.childNodes[1].innerText + "List").classList.toggle("hide");
