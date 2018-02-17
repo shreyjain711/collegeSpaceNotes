@@ -165,7 +165,7 @@ svg{
   display:none;
 }
 #sem1List{
-  width:208px;
+  width:204px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
@@ -173,49 +173,49 @@ svg{
   padding:5px;
 } 
 #sem2List{
-  width:208px;
+  width:204px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
   padding:5px;
 } #sem3List{
-  width:208px;
+  width:204px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
   padding:5px;
 } #sem4List{
-  width:208px;
+  width:204px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
   padding:5px;
 } #sem5List{
-  width:208px;
+  width:204px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
   padding:5px;
 } #sem6List{
-  width:208px;
+  width:204px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
   padding:5px;
 } #sem7List{
-  width:208px;
+  width:204px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
   transtion:2s;
   padding:5px;
 } #sem8List{
-  width:208px;
+  width:204px;
   margin-left:10px;
   margin-top:-15px;
   border: 1px solid black;
@@ -249,7 +249,12 @@ svg{
 }
 
 a {
+  display:block;
   color:#9514e4;  
+  background-color:#ddd;
+  margin: 0px auto;
+  margin-bottom:-15px;
+  border:3px solid #ccc;
 } a:visited {
   color:#8504d4;
 }
