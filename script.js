@@ -6,19 +6,13 @@ var streamList = [document.querySelector('#coe'),
                  document.querySelector('#bt')
                  ];
 var currentStream = "coe";
-var prevSem = "";
+
 function myFunction(x) {
   for( var i = 1; i < 9; i++ ){
       var z = document.getElementById( "sem" + i + "List" );
       z.classList.remove("hide");
       z.classList.add("hide");
   }
-  if(!prevSem) prevSem =x;
-  else if(prevSem != x){
-    prevSem.childNodes[3].classList.toggle("change");
-    prevSem = x;
-  }else prevSem = "";
-
   x.childNodes[3].classList.toggle("change");
   if( x.childNodes[3].classList[1] === "change" ){
     document.getElementById("sem" + x.childNodes[1].innerText + "List").classList.toggle("hide");
@@ -29,7 +23,7 @@ function streams(x) {
     stream.classList.remove("active");
   });
   x.classList.add("active");
-  //debugger;
+  debugger;
   if( x.id !== currentStream ){
     currentStream = x.id;
     view.streamUpdate(currentStream);
@@ -65,8 +59,8 @@ sems();
 var view = {
   streamUpdate: function( stream ) {
     for( var i = 2; i < 9; i++ ){
-      var x = document.getElementById( "sem" + i + "List" );
-      x.innerHTML = "";
+      var x = document.getElementById( "sem" + i + "List" ); ;
+      x.innerHTML = ""
     }
     allSems[stream].forEach( function( semester, i ) {
       var curSem = document.getElementById( "sem" + ( i + 2 ) + "List" );
@@ -83,8 +77,8 @@ var view = {
           curSem.appendChild(br);
         });
       }
-    });
+    })
   }
-};
+}
 
 view.streamUpdate(currentStream);
