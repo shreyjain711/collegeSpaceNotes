@@ -8,20 +8,25 @@ var streamList = [document.querySelector('#coe'),
 var currentStream = "coe";
 var prevSem = "";
 function myFunction( x ) {
-  for( var i = 1; i < 9; i++ ) {
-      var z = document.getElementById( "sem" + i + "List" );
-      z.classList.remove( "hide" );
-      z.classList.add( "hide" );
-  }
-  if(!prevSem) prevSem = x;
-  else if(prevSem != x){
-    prevSem.childNodes[3].classList.toggle( "change" );
+  if(!prevSem) {
     prevSem = x;
-  }else prevSem = "";
-
-  x.childNodes[3].classList.toggle( "change" );
-  if( x.childNodes[3].classList[1] === "change" ) {
-    document.getElementById( "sem" + x.childNodes[1].innerText + "List" ).classList.toggle( "hide" );
+    idName = "#sem" + x.childNodes[1].innerText + "List";
+    x.childNodes[3].classList.toggle( "change" );  
+    $(idName).slideToggle("slow");
+    
+  }else if(prevSem != x){
+    prevSem.childNodes[3].classList.toggle( "change" );
+    x.childNodes[3].classList.toggle( "change" );  
+    var idName ="#sem" + prevSem.childNodes[1].innerText + "List";
+    $(idName).slideToggle("slow");
+    idName = "#sem" + x.childNodes[1].innerText + "List";
+    $(idName).slideToggle("slow");
+    prevSem = x;
+  }else {
+    prevSem = ""
+    x.childNodes[3].classList.toggle( "change" );  
+    var idName = "#sem" + x.childNodes[1].innerText + "List";
+    $(idName).slideToggle("slow");
   }
 }
 function streams(x) {
