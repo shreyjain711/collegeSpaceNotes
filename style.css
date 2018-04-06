@@ -1,13 +1,13 @@
 .main{
   width:320px;
-  border: 2px solid black;
+  border: 5px solid black;
+  border-left: 2px solid black;
   height: 480px;
   overflow:auto;
   display:flex;
   color:white;
   background-color:#000000;
   border-radius:5px;
-  box-shadow:3px 5px 0px 0px black,3px 4px 0px 0px black,3px 3px 0px 0px,3px 2px 0px 0px black,2px 5px 0px 0px,1px 5px 0px 0px;
 }
 .sidebar{
   position:fixed;
@@ -20,6 +20,7 @@
   width: 100px;
   margin-top: 10px;
   margin-left: 30px;
+  color:white;
   background: linear-gradient(140deg,#c112e8,#b102d8,#5916e0,#6926f0);
   box-shadow: 8px 10px 20px #eee, 0px 8px 20px #eee, 4px 8px 20px #eee;
   border-radius:5px 5px 5px 5px;
