@@ -20,15 +20,15 @@
   width: 100px;
   margin-top: 10px;
   margin-left: 30px;
-  color:white;
+  color:black;
   background: linear-gradient(140deg,#c112e8,#b102d8,#5916e0,#6926f0);
-  box-shadow: 8px 10px 20px #eee, 0px 8px 20px #eee, 4px 8px 20px #eee;
+/*   box-shadow: 8px 10px 20px #eee, 0px 8px 20px #eee, 4px 8px 20px #eee; */
   border-radius:5px 5px 5px 5px;
 }
 .switch:hover{
   transition-duration: 0.5s;
-  transform: translateY(8px);
-  box-shadow:0px 4px 20px #eee, 4px 4px 20px #eee, -4px 4px 20px #eee;
+  transform: translateY(2px);
+/*   box-shadow:0px 4px 20px #eee, 4px 4px 20px #eee, -4px 4px 20px #eee; */
 }
 .bookmark{
   height:80px;
@@ -130,7 +130,8 @@ img.cs{
   margin-left:10px;
   height:40px;
   width: 210px;
-  background: linear-gradient(30deg,#6926f0,#f0a0aa);
+/*   background: linear-gradient(30deg,#6926f0,#f0a0aa); */
+  background-color: #8717ff;
   text-align: center;
   line-height:40px;
   display:flex;

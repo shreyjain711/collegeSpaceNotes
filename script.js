@@ -11,12 +11,12 @@ function myFunction( x ) {
   if(!prevSem) {
     prevSem = x;
     idName = "#sem" + x.childNodes[1].innerText + "List";
-    x.childNodes[3].classList.toggle( "change" );  
+    x.childNodes[3].classList.toggle( "change" );
     $(idName).slideToggle("slow");
-    
+
   }else if(prevSem != x){
     prevSem.childNodes[3].classList.toggle( "change" );
-    x.childNodes[3].classList.toggle( "change" );  
+    x.childNodes[3].classList.toggle( "change" );
     var idName ="#sem" + prevSem.childNodes[1].innerText + "List";
     $(idName).slideToggle("slow");
     idName = "#sem" + x.childNodes[1].innerText + "List";
@@ -24,7 +24,7 @@ function myFunction( x ) {
     prevSem = x;
   }else {
     prevSem = ""
-    x.childNodes[3].classList.toggle( "change" );  
+    x.childNodes[3].classList.toggle( "change" );
     var idName = "#sem" + x.childNodes[1].innerText + "List";
     $(idName).slideToggle("slow");
   }
@@ -91,5 +91,12 @@ var view = {
     });
   }
 };
+var toggle = function( x ){
+  if( x.target.innerText === "Browse old syllabus!" ){
+    x.target.innerText = "Browse new syllabus!"
+  } else {
+    x.target.innerText = "Browse old syllabus!"
+  }
+}
 
 view.streamUpdate( currentStream );
