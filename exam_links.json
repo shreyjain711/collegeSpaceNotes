@@ -1,0 +1,343 @@
+var sem1 = [
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…ewayatcollegespace316227766/Sem1/2014 MID SEM.pdf",
+    "name": "2014 MID SEM"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…atewayatcollegespace316227766/Sem1/2008 Mid 2.pdf",
+    "name": "2008 Mid 2"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…ewayatcollegespace316227766/Sem1/ED Questions.pdf",
+    "name"": "E"D Questions"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2007 Mid.pdf",
+    "name": "2007 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…yatcollegespace316227766/Sem1/2008 End Part 2.pdf",
+    "name": "2008 End Part 2"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2015 End.pdf",
+    "name": "2015 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2016 MID.pdf",
+    "name": "2016 MID"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2010 End.pdf",
+    "name": "2010 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2009 End.pdf",
+    "name": "2009 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…egespace316227766/Sem1/VIVA Physics Questions.pdf",
+    "name": "VIVA Physics Questions"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…espace316227766/Sem1/VIVA Chemistry Questions.pdf",
+    "name": "VIVA Chemistry Questions"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2010 Mid.pdf",
+    "name": "2010 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2009 Mid.pdf",
+    "name": "2009 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…atewayatcollegespace316227766/Sem1/2008 Mid 1.pdf",
+    "name": "2008 Mid 1"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2015 Mid.pdf",
+    "name": "2015 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2011 End.pdf",
+    "name": "2011 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2011 Mid.pdf",
+    "name": "2011 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…yatcollegespace316227766/Sem1/2008 End Part 1.pdf",
+    "name": "2008 End Part 1"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2013 End.pdf",
+    "name": "2013 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…collegespace316227766/Sem1/VIVA ED Questions .pdf",
+    "name": "VIVA ED Questions "
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…collegespace316227766/Sem1/ED Viva Questions .pdf",
+    "name": "ED Viva Questions "
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2012 Mid.pdf",
+    "name": "2012 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2014 End.pdf",
+    "name": "2014 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2012 End.pdf",
+    "name": "2012 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…gespace316227766/Sem1/VIVA Workshop Questions.pdf",
+    "name": "VIVA Workshop Questions"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2007 End.pdf",
+    "name": "2007 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem1/2013 MID.pdf",
+    "name": "2013 MID"
+  }
+];
+
+var sem2 = [
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem2/END 2013.pdf",
+    "name": "END 2013"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem2/End 2008.pdf",
+    "name": "End 2008"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem2/mid 2017.pdf",
+    "name": "mid 2017"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…tewayatcollegespace316227766/Sem2/2013 MID BT.pdf",
+    "name": "2013 MID BT"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…atcollegespace316227766/Sem2/2016_MID_BT_SEM2.pdf",
+    "name": "2016 MID BT SEM2"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…tewayatcollegespace316227766/Sem2/2016 end BT.pdf",
+    "name": "2016 end BT"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem2/End 2009.pdf",
+    "name": "End 2009"
+  }
+];
+
+var sem3 = [
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2016 MID.pdf",
+    "name": "2016 MID"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2014 Mid.pdf",
+    "name": "2014 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2013 Mid.pdf",
+    "name": "2013 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2011 Mid.pdf",
+    "name": "2011 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2015 MID.pdf",
+    "name": "2015 MID"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2013 End.pdf",
+    "name": "2013 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2008 Mid.pdf",
+    "name": "2008 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2014 End.pdf",
+    "name": "2014 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2015 END.pdf",
+    "name": "2015 END"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem3/2007 End.pdf",
+    "name": "2007 End"
+  }
+]
+
+var sem4 = [
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem4/Mid 2016.pdf",
+    "name": "Mid 2016"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem4/End 2008.pdf",
+    "name": "End 2008"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…ewayatcollegespace316227766/Sem4/2014_MID_BT_.pdf",
+    "name": "2014 MID BT "
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…ewayatcollegespace316227766/Sem4/bt maay 2013.pdf",
+    "name": "bt maay 2013"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…tewayatcollegespace316227766/Sem4/bt mid 2013.pdf",
+    "name": "bt mid 2013"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem4/2017 MID.pdf",
+    "name": "2017 MID"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…collegespace316227766/Sem4/2015 end BT sem4_2.pdf",
+    "name": "2015 end BT sem4 2"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…tewayatcollegespace316227766/Sem4/2016 end BT.pdf",
+    "name": "2016 end BT"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem4/End 2009.pdf",
+    "name": "End 2009"
+  }
+];
+
+var sem5 = [
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem5/2016 MID.pdf",
+    "name": "2016 MID"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…atcollegespace316227766/Sem5/2011 Mid (Part1).pdf",
+    "name": "2011 Mid (Part1)"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…gatewayatcollegespace316227766/Sem5/2011 End .pdf",
+    "name": "2011 End "
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem5/2014 Mid.pdf",
+    "name": "2014 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem5/2013 end.pdf",
+    "name": "2013 end"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem5/2013 Mid.pdf",
+    "name": "2013 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem5/2008 End.pdf",
+    "name": "2008 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem5/2011 Mid.pdf",
+    "name": "2011 Mid"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…atcollegespace316227766/Sem5/2011 Mid (Part2).pdf",
+    "name": "2011 Mid (Part2)"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem5/2015 END.pdf",
+    "name": "2015 END"
+  }
+];
+
+var sem6 = [
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem6/Mid 2017.pdf",
+    "name": "Mid 2017"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…atcollegespace316227766/Sem6/2016_MID_BT_SEM6.pdf",
+    "name": "2016 MID BT SEM6"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem6/2012 END.pdf",
+    "name": "2012 END"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem6/2012 MID.pdf",
+    "name": "2012 MID"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem6/2008 End.pdf",
+    "name": "2008 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem6/2015 MID.pdf",
+    "name": "2015 MID"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…tewayatcollegespace316227766/Sem6/2013_mid_BT.pdf",
+    "name": "2013 mid BT"
+  }
+];
+
+var sem7 = [
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem7/2015 End.pdf",
+    "name": "2015 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem7/2012 MID.pdf",
+    "name": "2012 MID"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem7/2008 End.pdf",
+    "name": "2008 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem7/2014 End.pdf",
+    "name": "2014 End"
+  }
+];
+
+var sem8 = [
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem8/MID 2015.pdf",
+    "name": "MID 2015"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem8/2016 MID.pdf",
+    "name": "2016 MID"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem8/2009 End.pdf",
+    "name": "2009 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…pgatewayatcollegespace316227766/Sem8/2008 End.pdf",
+    "name": "2008 End"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…gespace316227766/Sem8/BT 8th sem 2014 end sem.pdf",
+    "name": "BT 8th sem 2014 end sem"
+  },
+  {
+    "link": "http://test.collegespace.in/Academia/XamPap1772810…tewayatcollegespace316227766/Sem8/2013_mid_BT.pdf",
+    "name": "2013 mid BT"
+  }
+];
