@@ -204,6 +204,10 @@ img.cs{
   box-shadow:2.5px 3px 0px #8504d4, -2px 3px 0px 0px #b102d8,-2px 2px 0px 0px #b102d8;
   border-radius:5px 50px 50px 5px;
 }
+.label{
+  color: white;
+  margin-top: -11px;
+}
 
 a {
   display:block;
